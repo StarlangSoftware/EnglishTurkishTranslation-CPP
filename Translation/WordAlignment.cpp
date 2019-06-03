@@ -11,7 +11,7 @@ WordAlignment::WordAlignment(Sentence *toSentence, Sentence *fromSentence) {
         if (i < fromSentence->wordCount()){
             alignment.push_back(i);
         } else {
-            alignment.push_back(fromSentence.wordCount());
+            alignment.push_back(fromSentence->wordCount());
         }
     }
 }

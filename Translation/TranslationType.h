@@ -5,7 +5,9 @@
 #ifndef TRANSLATION_TRANSLATIONTYPE_H
 #define TRANSLATION_TRANSLATIONTYPE_H
 
-
+/**
+ * Enumerator class for TranslationType.
+ */
 enum class TranslationType {
     WORD_BASED, PHRASE_BASED
 };

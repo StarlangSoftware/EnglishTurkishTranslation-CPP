@@ -6,6 +6,9 @@
 #define TRANSLATION_SENTENCEALIGNMENTTYPE_H
 
 
+/**
+ * Enumerated class for SentenceAlignmentType
+ */
 enum class SentenceAlignmentType {
     SUBSTITUTION, DELETION, INSERTION, CONTRACTION, EXPANSION, MERGE
 };

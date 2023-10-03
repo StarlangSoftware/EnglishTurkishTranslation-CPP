@@ -5,7 +5,7 @@
 #include "WordMeaning.h"
 
 /**
- * Constructor for the {@link WordMeaning} class. Gets meaningClass and meaningText as input and sets the
+ * Constructor for the WordMeaning class. Gets meaningClass and meaningText as input and sets the
  * corresponding attributes.
  * @param meaningClass Meaning class of the word.
  * @param meaningText Meaning text of the word.
@@ -16,7 +16,7 @@ WordMeaning::WordMeaning(string meaningClass, string meaningText) {
 }
 
 /**
- * Another constructor for the {@link WordMeaning} class. Gets meaningText as input and sets the corresponding
+ * Another constructor for the WordMeaning class. Gets meaningText as input and sets the corresponding
  * attribute.
  * @param meaningText Meaning text of the word.
  */

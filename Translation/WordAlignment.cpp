@@ -5,7 +5,7 @@
 #include "WordAlignment.h"
 
 /**
- * Constructor for {@link WordAlignment} class. Gets input the target sentence and the source sentence and sets
+ * Constructor for WordAlignment class. Gets input the target sentence and the source sentence and sets
  * the corresponding attributes. The method also initializes the alignment to the unary alignment.
  * @param targetSentence Target sentence
  * @param sourceSentence Source sentence
@@ -23,7 +23,7 @@ WordAlignment::WordAlignment(Sentence *toSentence, Sentence *fromSentence) {
 }
 
 /**
- * Another constructor for {@link WordAlignment} class. Gets input the target sentence, the source sentence and
+ * Another constructor for WordAlignment class. Gets input the target sentence, the source sentence and
  * the alignment sets the corresponding attributes.
  * @param targetSentence Target sentence
  * @param sourceSentence Source sentence

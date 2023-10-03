@@ -6,7 +6,7 @@
 #include <Word.h>
 
 /**
- * Constructor for {@link WordTranslationCandidate}. Gets the translation string as input and calls its super class
+ * Constructor for WordTranslationCandidate. Gets the translation string as input and calls its super class
  * with it. Since this is the first occurrence for this translation, it sets count to 1.
  * @param translation Translation of the word.
  */
@@ -15,7 +15,7 @@ WordTranslationCandidate::WordTranslationCandidate(string translation) : TargetP
 }
 
 /**
- * Another constructor for {@link WordTranslationCandidate}. Gets the translation string and count for that
+ * Another constructor for WordTranslationCandidate. Gets the translation string and count for that
  * translation as input. Calls its superclass with translation and sets the translation count.
  * @param translation Translation of the word.
  * @param count Number of occurrences of this translation.

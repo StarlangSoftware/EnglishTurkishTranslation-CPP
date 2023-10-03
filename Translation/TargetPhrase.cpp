@@ -5,10 +5,10 @@
 #include "TargetPhrase.h"
 
 /**
- * Constructor for the {@link TargetPhrase} class. Gets the attributes lexicalClass and meaning as input and sets
+ * Constructor for the TargetPhrase class. Gets the attributes lexicalClass and meaning as input and sets
  * the corresponding attributes.
  * @param lexicalClass Lexical class of the word.
- * @param meaning Meaning text of the word in {@link WordMeaning} form.
+ * @param meaning Meaning text of the word in WordMeaning form.
  */
 TargetPhrase::TargetPhrase(string lexicalClass, WordMeaning meaning) {
     this->lexicalClass = move(lexicalClass);
@@ -16,16 +16,16 @@ TargetPhrase::TargetPhrase(string lexicalClass, WordMeaning meaning) {
 }
 
 /**
- * Another constructor for the {@link TargetPhrase} class. Gets the attribute meaning as input and sets the
+ * Another constructor for the TargetPhrase class. Gets the attribute meaning as input and sets the
  * corresponding attribute.
- * @param meaning Meaning text of the word in {@link WordMeaning} form.
+ * @param meaning Meaning text of the word in WordMeaning form.
  */
 TargetPhrase::TargetPhrase(WordMeaning meaning) {
     this->meaning = move(meaning);
 }
 
 /**
- * Another constructor for the {@link TargetPhrase} class. Gets the attribute meaning as input and sets the
+ * Another constructor for the TargetPhrase class. Gets the attribute meaning as input and sets the
  * corresponding attribute.
  * @param meaningText Meaning text of the word in string form.
  */

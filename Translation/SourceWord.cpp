@@ -5,7 +5,7 @@
 #include "SourceWord.h"
 
 /**
- * Constructor for {@link SourceWord}. The method gets lemma of the word as input and calls its super. It also
+ * Constructor for SourceWord. The method gets lemma of the word as input and calls its super. It also
  * initializes the possible translations of the word.
  * @param name Lemma of the word.
  */

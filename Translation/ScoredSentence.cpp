@@ -5,7 +5,7 @@
 #include "ScoredSentence.h"
 
 /**
- * Constructor for the {@link ScoredSentence} class. Sets the probability for that sentence to 1.
+ * Constructor for the ScoredSentence class. Sets the probability for that sentence to 1.
  */
 ScoredSentence::ScoredSentence() {
     logProbability = 0;
@@ -23,7 +23,7 @@ ScoredSentence ScoredSentence::clone() {
 }
 
 /**
- * Another constructor for the {@link ScoredSentence} class. Gets the words of the sentence as space delimited
+ * Another constructor for the ScoredSentence class. Gets the words of the sentence as space delimited
  * tokens in a string, splits the string, and constructs the sentence.
  * @param s String containing the words of the sentence.
  */

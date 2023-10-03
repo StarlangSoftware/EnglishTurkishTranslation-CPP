@@ -6,7 +6,7 @@
 #include "WordTranslationCandidate.h"
 
 /**
- * Constructor for {@link WordTranslations} class. Gets the translation string as input and calls its super class.
+ * Constructor for WordTranslations class. Gets the translation string as input and calls its super class.
  * @param name Translation string.
  */
 WordTranslations::WordTranslations(string name) : SourceWord(move(name)) {
@@ -27,7 +27,7 @@ string WordTranslations::removeParentheses(string word) {
 }
 
 /**
- * Another constructor for {@link WordTranslations} class. Gets the sourceWord as input, calls its superclass with
+ * Another constructor for WordTranslations class. Gets the sourceWord as input, calls its superclass with
  * it. Afterwards, for each translation in that word, it adds that translation to the current words translations
  * list.
  * @param word Copied source word.
@@ -53,7 +53,7 @@ void WordTranslations::addTranslation(Word *translation, int count) {
 }
 
 /**
- * Another construfor {@link WordTranslations} class. Gets the sourceWord as input, calls its superclass with
+ * Another construfor WordTranslations class. Gets the sourceWord as input, calls its superclass with
  * it. Afterwards, for each translation in that word, it adds that translation to the current words translations
  * list, if it has the same pos with the input.
  * @param word Copied source word.

@@ -1,4 +1,8 @@
-# EnglishTurkishTranslation-CPP
+Translated Datasets
+============
+[Penn-TreeBank 15 Words](http://104.247.163.162/nlptoolkit/turkish-treebank1.html)
+
+[Penn-TreeBank 20 Words](http://104.247.163.162/nlptoolkit/turkish-treebank2.html)
 
 ## Cite
 If you use this resource on your research, please cite the following paper: 
@@ -23,6 +27,7 @@ If you use this resource on your research, please cite the following paper:
 	title = "A tree-based approach for English-to-Turkish translation",
 	author = "Özge Bakay and Begüm Avar and Olcay Taner Yildiz"
 }
+```
 
 For Contibutors
 ============
